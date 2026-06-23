@@ -6,6 +6,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody playerRb;
     private Vector2 moveInput;
     private Animator playerAnimator;
+    private bool canJump;
 
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float runSpeed = 10f;
@@ -31,7 +32,6 @@ public class PlayerMovement : MonoBehaviour
         Vector3 move = new Vector3(moveInput.x, 0f, moveInput.y);
 
         playerAnimator.SetFloat("Velocity", move.magnitude * (currentSpeed / runSpeed));
-        Debug.Log(playerAnimator.GetFloat("Velocity"));
 
         // Move player
         playerRb.linearVelocity = new Vector3(
@@ -67,8 +67,12 @@ public class PlayerMovement : MonoBehaviour
 
     void OnJump(InputValue value)
     {
-        playerRb.AddForce(new Vector3(0, 3f, 0), ForceMode.Impulse);
-        playerAnimator.SetBool("canJump", true);
+        if (canJump)
+        {
+            playerRb.AddForce(new Vector3(0, 4f, 0), ForceMode.Impulse);
+            playerAnimator.SetBool("canJump", true);
+            canJump = false;
+        }
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -76,6 +80,7 @@ public class PlayerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             playerAnimator.SetBool("canJump", false);
+            canJump = true;
         }
     }
 }

@@ -61,6 +61,7 @@
     <Analyzer Include="D:\Unity\6000.3.8f1\Editor\Data\Tools\BuildPipeline\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Player_Scripts\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\Player_Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
   </ItemGroup>
