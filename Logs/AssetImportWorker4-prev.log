@@ -1,0 +1,822 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.8f1 (1c7db571dde0) revision 1867189'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 16068 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Binod" at "2026-07-02T06:12:08.4519044Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-07-02T06:12:08Z
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6000.3.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/UnityClass/Boss-Gauntlet
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+57255
+-licensingIpc
+LicenseClient-Binod
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/UnityClass/Boss-Gauntlet
+D:/UnityClass/Boss-Gauntlet
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [6008]  Target information:
+
+Player connection [6008]  * "[IP] 192.168.18.221 [Port] 0 [Flags] 2 [Guid] 2390139151 [EditorId] 2390139151 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-67VTHVRN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6008]  * "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 2390139151 [EditorId] 2390139151 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-67VTHVRN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6008] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6008] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.8f1 (1c7db571dde0)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.3.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityClass/Boss-Gauntlet/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5920 MB
+    Driver:   32.0.15.9597
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.3.8f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.3.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56156
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/6000.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              d762f97e0cc845869b1d2653baa5165b
+  Correlation Id:          1dda1c2b112f5627c65494a1b695fdd1
+  External correlation Id: 5123286886353709291
+  Machine Id:              a597XLbd5NXm8tjUS2kr2LE3GSg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Binod" (connect: 0.00s, validation: 0.00s, handshake: 1.97s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Binod-notifications" at "2026-07-02T06:12:10.4255932Z"
+[Licensing::Module] Licensing Background thread has ended after 1.97s
+[Licensing::Module] Licensing is initialized (took 0.32s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968353892640-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: D:/Unity/6000.3.8f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: D:/Unity/6000.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.332836 seconds.
+- Loaded All Assemblies, in  1.301 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 470 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.498 seconds
+Domain Reload Profiling: 2798ms
+	BeginReloadAssembly (330ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (93ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (424ms)
+	LoadAllAssembliesAndSetupDomain (428ms)
+		LoadAssemblies (332ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (417ms)
+			TypeCache.Refresh (414ms)
+				TypeCache.ScanAssembly (383ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1498ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1410ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (667ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (218ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (156ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+- Loaded All Assemblies, in  1.650 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.836 seconds
+Domain Reload Profiling: 3485ms
+	BeginReloadAssembly (412ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (71ms)
+	RebuildCommonClasses (99ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1042ms)
+		LoadAssemblies (746ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (538ms)
+			TypeCache.Refresh (378ms)
+				TypeCache.ScanAssembly (347ms)
+			BuildScriptInfoCaches (125ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (1836ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1429ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (278ms)
+			ProcessInitializeOnLoadAttributes (961ms)
+			ProcessInitializeOnLoadMethodAttributes (155ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6576 unused Assets / (4.7 MB). Loaded Objects now: 7376.
+Memory consumption went from 144.4 MB to 139.6 MB.
+Total: 16.657700 ms (FindLiveObjects: 0.932700 ms CreateObjectMapping: 1.212800 ms MarkObjects: 11.078700 ms  DeleteObjects: 3.431900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 34386.933169 seconds.
+  path: Assets/Animations/Boss1
+  artifactKey: Guid(1f538b0f96a1bdf43868d66fe1823724) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Boss1 using Guid(1f538b0f96a1bdf43868d66fe1823724) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f061658b435fff85ea4f2224422d9b8') in 0.1012972 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.587211 seconds.
+  path: Assets/Animations/Boss1/Standing Up.fbx
+  artifactKey: Guid(5d5cbda38559f3a4e9b4e2728c695f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss1/Standing Up.fbx using Guid(5d5cbda38559f3a4e9b4e2728c695f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '173131f8e6ccee76b4eb91af9862e106') in 0.0603885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Animations/Boss1/Overhead Atk.fbx
+  artifactKey: Guid(e038d82cb3c87b0408ed82b2d88a9095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss1/Overhead Atk.fbx using Guid(e038d82cb3c87b0408ed82b2d88a9095) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b05c96b11536a1d498f567d81c35ea63') in 0.0090735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Animations/Boss1/Standing Melee Attack Kick Ver. 1.fbx
+  artifactKey: Guid(1fe437951d14706419615afa6df1681a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss1/Standing Melee Attack Kick Ver. 1.fbx using Guid(1fe437951d14706419615afa6df1681a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6f898b7aa2c4a2b2f3120a1598b4a039') in 0.0064373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animations/Boss1/Standing Taunt Chest Thump.fbx
+  artifactKey: Guid(90ee1d1cd614ef340af0a39fb08389cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss1/Standing Taunt Chest Thump.fbx using Guid(90ee1d1cd614ef340af0a39fb08389cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85cc2cf2475bbc3a0fe7568265661ae6') in 0.0057877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.431421 seconds.
+  path: Assets/Animations/Boss1/Overhead Atk.fbx
+  artifactKey: Guid(e038d82cb3c87b0408ed82b2d88a9095) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Boss1/Overhead Atk.fbx using Guid(e038d82cb3c87b0408ed82b2d88a9095) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '307de21a4f46011a6148fd5c34e648ae') in 0.186752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Animations/Boss1/Standing Melee Attack Kick Ver. 1.fbx
+  artifactKey: Guid(1fe437951d14706419615afa6df1681a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Boss1/Standing Melee Attack Kick Ver. 1.fbx using Guid(1fe437951d14706419615afa6df1681a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '662de132bdf6372e06ea1c745aecda04') in 0.0342751 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Animations/Boss1/Sitting Idle.fbx
+  artifactKey: Guid(4ac98de0ae2cc2f4b8bfe44e8ee7aeb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Boss1/Sitting Idle.fbx using Guid(4ac98de0ae2cc2f4b8bfe44e8ee7aeb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '66afba8314a8979c18c8057a7a9ff347') in 0.0719519 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 172
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.064910 seconds.
+  path: Assets/Animations/Boss1/Sitting Idle.fbx
+  artifactKey: Guid(4ac98de0ae2cc2f4b8bfe44e8ee7aeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss1/Sitting Idle.fbx using Guid(4ac98de0ae2cc2f4b8bfe44e8ee7aeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '988eb599f50854e0be7a47f83349671c') in 0.9718351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 174
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.119104 seconds.
+  path: Assets/Animations/Boss1/Sitting Idle.fbx
+  artifactKey: Guid(4ac98de0ae2cc2f4b8bfe44e8ee7aeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss1/Sitting Idle.fbx using Guid(4ac98de0ae2cc2f4b8bfe44e8ee7aeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd56f523802b6f24b31e94425784bee0a') in 0.066298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 176
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.826656 seconds.
+  path: Assets/Animations/Boss1/Sitting Idle.fbx
+  artifactKey: Guid(4ac98de0ae2cc2f4b8bfe44e8ee7aeb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Boss1/Sitting Idle.fbx using Guid(4ac98de0ae2cc2f4b8bfe44e8ee7aeb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b9f3e0f1f4ef14cbf2d4a671069ef628') in 0.0777597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 176
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Textures/bear_diffuse.png
+  artifactKey: Guid(07ae7db706d74394093b7e51d4fe75c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Textures/bear_diffuse.png using Guid(07ae7db706d74394093b7e51d4fe75c0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter)[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+ -> (artifact id: '251e10302959fca6b3bcb9eb726d42cb') in 0.0875534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.492209 seconds.
+  path: Assets/Animations/Boss1/Sitting Idle.fbx
+  artifactKey: Guid(4ac98de0ae2cc2f4b8bfe44e8ee7aeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Boss1/Sitting Idle.fbx using Guid(4ac98de0ae2cc2f4b8bfe44e8ee7aeb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4918f7d44949afeb5b0773d5cee7c1e') in 0.0493241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 176
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.853438 seconds.
+  path: Assets/Materials/warrok_MAT.mat
+  artifactKey: Guid(c6b61086b2e797443a0542d3b2b462e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Materials/warrok_MAT.mat using Guid(c6b61086b2e797443a0542d3b2b462e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '045c457a6f26358189fa7ffd20bc2f38') in 0.0321375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.415656 seconds.
+  path: Assets/Materials/warrok_MAT.mat
+  artifactKey: Guid(c6b61086b2e797443a0542d3b2b462e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/warrok_MAT.mat using Guid(c6b61086b2e797443a0542d3b2b462e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02a1885b18ef43990ba8a731519c2c3f') in 0.0286087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.074259 seconds.
+  path: Assets/Models/Player
+  artifactKey: Guid(24849cfded21d194e97ea0c5c403253d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Player using Guid(24849cfded21d194e97ea0c5c403253d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e521ac2097ba641df002b20b84faca1') in 0.000856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.873062 seconds.
+  path: Assets/Models/Player
+  artifactKey: Guid(24849cfded21d194e97ea0c5c403253d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Player using Guid(24849cfded21d194e97ea0c5c403253d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ada23a7788af7cca403033d6b6935fb') in 0.0190973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.544214 seconds.
+  path: Assets/Models/Player/Ninja Idle.fbx
+  artifactKey: Guid(e3b22671a41bd914ca6a027615f17bd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Player/Ninja Idle.fbx using Guid(e3b22671a41bd914ca6a027615f17bd0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4f5c88e363fdc65f2e72bde1201394a0') in 0.0616761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 141
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Models/Player/Dying.fbx
+  artifactKey: Guid(6dcc764bb0a39db428590f1903568fe0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Player/Dying.fbx using Guid(6dcc764bb0a39db428590f1903568fe0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa87cfb97e2a3ce998ab4153c447fdcf') in 0.0310145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 136
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Models/Player/Sword And Shield Slash (1).fbx
+  artifactKey: Guid(0a63a673b9fab604e85cf0ff49a68bb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Player/Sword And Shield Slash (1).fbx using Guid(0a63a673b9fab604e85cf0ff49a68bb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9ebdc6f8fd06f9592f4b44ae2af98f57') in 0.034776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 136
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Models/Player/One Hand Sword Combo.fbx
+  artifactKey: Guid(04b1c13b2dde7a84f88e5d8dbe5b8067) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Player/One Hand Sword Combo.fbx using Guid(04b1c13b2dde7a84f88e5d8dbe5b8067) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8b76f88e921668fbe3d45ac0b8c4077') in 0.0349712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 136
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Models/Player/Idle.fbx
+  artifactKey: Guid(6a1ba10fd6ba47c4f9b9ddbdc21d1848) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Player/Idle.fbx using Guid(6a1ba10fd6ba47c4f9b9ddbdc21d1848) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c554f717b9ba23b6b98b4a134bf36ab8') in 0.0452122 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.637008 seconds.
+  path: Assets/Models/Boss1
+  artifactKey: Guid(bffede62f8742454aa4dd7718845bdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1 using Guid(bffede62f8742454aa4dd7718845bdf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d8e99b218908bd213648467bb09c22a') in 0.0021514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.845165 seconds.
+  path: Assets/Models/Boss1
+  artifactKey: Guid(bffede62f8742454aa4dd7718845bdf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1 using Guid(bffede62f8742454aa4dd7718845bdf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7828bdcc236f2edd6febc728df60ca1') in 0.0203288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.010074 seconds.
+  path: Assets/Models/Boss1/Standing Melee Attack 360 High.fbx
+  artifactKey: Guid(228ea7005ad3f8949b480653db0bfff4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/Standing Melee Attack 360 High.fbx using Guid(228ea7005ad3f8949b480653db0bfff4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '79fb18fb1c84273f2b0e1b919678ba53') in 0.0424503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Models/Boss1/Standing Taunt Chest Thump.fbx
+  artifactKey: Guid(90ee1d1cd614ef340af0a39fb08389cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/Standing Taunt Chest Thump.fbx using Guid(90ee1d1cd614ef340af0a39fb08389cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1cae83244e3daa729fe0525c051aaa64') in 0.0338214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Boss1/Standing Melee Combo Attack Ver. 3.fbx
+  artifactKey: Guid(ad905aec42a62954f93acc8b5e6b163a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/Standing Melee Combo Attack Ver. 3.fbx using Guid(ad905aec42a62954f93acc8b5e6b163a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9200d4a526e56a7a0add69aa09448713') in 0.0330055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.408558 seconds.
+  path: Assets/Models/Boss1/Standing Melee Attack Kick Ver. 1.fbx
+  artifactKey: Guid(1fe437951d14706419615afa6df1681a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/Standing Melee Attack Kick Ver. 1.fbx using Guid(1fe437951d14706419615afa6df1681a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '26b8f8b4421eceddb5ad880a9fe96971') in 0.0054885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Models/Boss1/Overhead Atk.fbx
+  artifactKey: Guid(e038d82cb3c87b0408ed82b2d88a9095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/Overhead Atk.fbx using Guid(e038d82cb3c87b0408ed82b2d88a9095) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29aa075bd4f03ed1d4e14a6fd5c21574') in 0.0083728 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Models/Boss1/Standing Taunt Chest Thump.fbx
+  artifactKey: Guid(90ee1d1cd614ef340af0a39fb08389cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/Standing Taunt Chest Thump.fbx using Guid(90ee1d1cd614ef340af0a39fb08389cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58caa552b29d28ec11ca344272839780') in 0.0090844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 167
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.640365 seconds.
+  path: Assets/Models/Boss1/Overhead Atk.fbx
+  artifactKey: Guid(e038d82cb3c87b0408ed82b2d88a9095) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/Overhead Atk.fbx using Guid(e038d82cb3c87b0408ed82b2d88a9095) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '84cf87914997ca11809c562846b70e96') in 0.0355705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 168
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Models/Boss1/Standing Taunt Chest Thump.fbx
+  artifactKey: Guid(90ee1d1cd614ef340af0a39fb08389cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/Standing Taunt Chest Thump.fbx using Guid(90ee1d1cd614ef340af0a39fb08389cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6212ad074d0b6c26d1a418cb4c111087') in 0.0297254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 168
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.878814 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(5c8082a8c0cfa7645a20848a4b561534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(5c8082a8c0cfa7645a20848a4b561534) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef36521f5719e1f9b7a2c84ca926b5d9') in 0.0134107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.869843 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(5c8082a8c0cfa7645a20848a4b561534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(5c8082a8c0cfa7645a20848a4b561534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd55d89c0bbdb8f7378d5f559b6e4d6db') in 0.0316848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.217510 seconds.
+  path: Assets/Models/Boss1/Idl3.anim
+  artifactKey: Guid(5c8082a8c0cfa7645a20848a4b561534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/Idl3.anim using Guid(5c8082a8c0cfa7645a20848a4b561534) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fef5f8c986e625ffaae9963742f02fc') in 0.0113195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.894368 seconds.
+  path: Assets/Models/Boss1/Idl3.anim
+  artifactKey: Guid(5c8082a8c0cfa7645a20848a4b561534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/Idl3.anim using Guid(5c8082a8c0cfa7645a20848a4b561534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e42c520f35a8ae2cf0be413310fef9a5') in 0.0327505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.345504 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(624fb4d79c140764da91ed4ea64d3964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(624fb4d79c140764da91ed4ea64d3964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93059acaa49f2d8129bbece5fe696de1') in 0.023462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.845509 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(624fb4d79c140764da91ed4ea64d3964) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(624fb4d79c140764da91ed4ea64d3964) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6568a9955a362b16d3bcd20316808598') in 0.0460287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.085142 seconds.
+  path: Assets/Models/Boss1/OverheadAtk.anim
+  artifactKey: Guid(624fb4d79c140764da91ed4ea64d3964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/OverheadAtk.anim using Guid(624fb4d79c140764da91ed4ea64d3964) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b7203eabd8b66c5f4a3b018de3c7c3f') in 0.0268593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.862136 seconds.
+  path: Assets/Models/Boss1/OverheadAtk.anim
+  artifactKey: Guid(624fb4d79c140764da91ed4ea64d3964) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/OverheadAtk.anim using Guid(624fb4d79c140764da91ed4ea64d3964) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf610f670f5941bc7135cf8e4a77f0e7') in 0.0494044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.524009 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(b57c6a59f72fa3949a487a96212d43a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(b57c6a59f72fa3949a487a96212d43a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '223af654613361b515c2e5777c8a7518') in 0.0256681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.858056 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(b57c6a59f72fa3949a487a96212d43a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(b57c6a59f72fa3949a487a96212d43a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '43e49b7e782dce7dd09ced32a8d14ddf') in 0.0505175 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.746831 seconds.
+  path: Assets/Models/Boss1/360.anim
+  artifactKey: Guid(b57c6a59f72fa3949a487a96212d43a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/360.anim using Guid(b57c6a59f72fa3949a487a96212d43a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17d18c19210198b0e1621ce675937cb4') in 0.027413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.870471 seconds.
+  path: Assets/Models/Boss1/360.anim
+  artifactKey: Guid(b57c6a59f72fa3949a487a96212d43a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/360.anim using Guid(b57c6a59f72fa3949a487a96212d43a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04e06ad6a1eace3f158c540b4b3a923a') in 0.0527213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.031666 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(8b0c5ce7f52c12b4c88fe400dda68af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(8b0c5ce7f52c12b4c88fe400dda68af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5d6286c5735dd513c7620dcf11f4c94c') in 0.0200688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.860330 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(8b0c5ce7f52c12b4c88fe400dda68af9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(8b0c5ce7f52c12b4c88fe400dda68af9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '623c7cd7e8c502f8bbaaf4e588f575d6') in 0.0476635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.679709 seconds.
+  path: Assets/Models/Boss1/SwingAtk.anim
+  artifactKey: Guid(8b0c5ce7f52c12b4c88fe400dda68af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/SwingAtk.anim using Guid(8b0c5ce7f52c12b4c88fe400dda68af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b3604c92031f4dbb409c961c58d898d') in 0.0160372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.881571 seconds.
+  path: Assets/Models/Boss1/SwingAtk.anim
+  artifactKey: Guid(8b0c5ce7f52c12b4c88fe400dda68af9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/SwingAtk.anim using Guid(8b0c5ce7f52c12b4c88fe400dda68af9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a46a081f48f90c84e2abcd5ba206e21') in 0.0425538 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.548843 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(057f41a9e08c9a94a95a06170aba61e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(057f41a9e08c9a94a95a06170aba61e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11623cc754c716f52cd1f7e4b9d44368') in 0.0203903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.857562 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(057f41a9e08c9a94a95a06170aba61e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(057f41a9e08c9a94a95a06170aba61e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8ca8d6a8cf41ebcdb23241efc1237a84') in 0.0414965 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.921566 seconds.
+  path: Assets/Models/Boss1/Kick.anim
+  artifactKey: Guid(057f41a9e08c9a94a95a06170aba61e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/Kick.anim using Guid(057f41a9e08c9a94a95a06170aba61e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ab9d7f2632e729d736dde219da1a25e') in 0.0202485 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.874841 seconds.
+  path: Assets/Models/Boss1/Kick.anim
+  artifactKey: Guid(057f41a9e08c9a94a95a06170aba61e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/Kick.anim using Guid(057f41a9e08c9a94a95a06170aba61e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03cffb33c23cf3d922289cbfd5ad56e3') in 0.0422623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.431150 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(da2443aef46531448bbf71324cb0ea98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(da2443aef46531448bbf71324cb0ea98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4bed0b53c09137bf19a1439342e87ea2') in 0.0220457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.850143 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(da2443aef46531448bbf71324cb0ea98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(da2443aef46531448bbf71324cb0ea98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9b0dbe4755663af158a851ba01dbb03') in 0.0525886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.379274 seconds.
+  path: Assets/Models/Boss1/Combo1.anim
+  artifactKey: Guid(da2443aef46531448bbf71324cb0ea98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/Combo1.anim using Guid(da2443aef46531448bbf71324cb0ea98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90e2dbf16f87e899c56b1bb76546b49c') in 0.0210294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.882122 seconds.
+  path: Assets/Models/Boss1/Combo1.anim
+  artifactKey: Guid(da2443aef46531448bbf71324cb0ea98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/Combo1.anim using Guid(da2443aef46531448bbf71324cb0ea98) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6fb6c62a775f8e4297cf5877b0c86955') in 0.0562655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.377281 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(91fe5421528654546a47b299e3fc1fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(91fe5421528654546a47b299e3fc1fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ac3134734ac58d71630064ddc0e730d') in 0.0263268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.858517 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(91fe5421528654546a47b299e3fc1fba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(91fe5421528654546a47b299e3fc1fba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'df5e99b54f39dd7d08be15765cd6d0de') in 0.051551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.041371 seconds.
+  path: Assets/Models/Boss1/JumpAtk.anim
+  artifactKey: Guid(91fe5421528654546a47b299e3fc1fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/JumpAtk.anim using Guid(91fe5421528654546a47b299e3fc1fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a643d449b91dcbb62bf820ae298ceb6') in 0.0298795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.867652 seconds.
+  path: Assets/Models/Boss1/JumpAtk.anim
+  artifactKey: Guid(91fe5421528654546a47b299e3fc1fba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/JumpAtk.anim using Guid(91fe5421528654546a47b299e3fc1fba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f456e4b5df92f3e5f47bd573e76ffb3') in 0.0560631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.665541 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(a8eb91ccb397282448bdc2eb2642dda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(a8eb91ccb397282448bdc2eb2642dda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '383a79c9e16a33a8f1e2fbe3feb3ea1b') in 0.0163918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.869448 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(a8eb91ccb397282448bdc2eb2642dda3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(a8eb91ccb397282448bdc2eb2642dda3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '247abb26af228e2e9e94c536ad73d6d2') in 0.0446527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.773055 seconds.
+  path: Assets/Models/Boss1/Taunt.anim
+  artifactKey: Guid(a8eb91ccb397282448bdc2eb2642dda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/Taunt.anim using Guid(a8eb91ccb397282448bdc2eb2642dda3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4df1092e1392070b97579ef0b80dc34a') in 0.0174584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.882358 seconds.
+  path: Assets/Models/Boss1/Taunt.anim
+  artifactKey: Guid(a8eb91ccb397282448bdc2eb2642dda3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/Taunt.anim using Guid(a8eb91ccb397282448bdc2eb2642dda3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '99a2a2b19bcd2f76ad1b18afa8c6bac2') in 0.0389564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.323125 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(8040fcd5363a12f45bd9896e29ce4a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(8040fcd5363a12f45bd9896e29ce4a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00e1113fff217bc3ea489e477ec53a6b') in 0.0387057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.833948 seconds.
+  path: Assets/Models/Boss1/mixamo.com.anim
+  artifactKey: Guid(8040fcd5363a12f45bd9896e29ce4a74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/mixamo.com.anim using Guid(8040fcd5363a12f45bd9896e29ce4a74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '60ac8eebf936731501a6e847c0cdd26d') in 0.0732277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.332638 seconds.
+  path: Assets/Models/Boss1/Stand.anim
+  artifactKey: Guid(8040fcd5363a12f45bd9896e29ce4a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/Boss1/Stand.anim using Guid(8040fcd5363a12f45bd9896e29ce4a74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe9e4f235bcca666b6d11946bff89825') in 0.0392304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.836693 seconds.
+  path: Assets/Models/Boss1/Stand.anim
+  artifactKey: Guid(8040fcd5363a12f45bd9896e29ce4a74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Models/Boss1/Stand.anim using Guid(8040fcd5363a12f45bd9896e29ce4a74) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00a25b82e816d869ace18955e6600282') in 0.077952 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.816418 seconds.
+  path: Assets/Animations/Boss1/JumpAtk.anim
+  artifactKey: Guid(91fe5421528654546a47b299e3fc1fba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Boss1/JumpAtk.anim using Guid(91fe5421528654546a47b299e3fc1fba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3ca0026ea592db82a0b36477b14a0e4c') in 0.0842271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Animations/Boss1/SwingAtk.anim
+  artifactKey: Guid(8b0c5ce7f52c12b4c88fe400dda68af9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Boss1/SwingAtk.anim using Guid(8b0c5ce7f52c12b4c88fe400dda68af9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a5423134c01a3e098874905bbe4f7816') in 0.0440813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Animations/Boss1/360.anim
+  artifactKey: Guid(b57c6a59f72fa3949a487a96212d43a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Boss1/360.anim using Guid(b57c6a59f72fa3949a487a96212d43a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b256420ebd4b22ab54a9c47b659fb9bb') in 0.0705897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Animations/Boss1/Taunt.anim
+  artifactKey: Guid(a8eb91ccb397282448bdc2eb2642dda3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Boss1/Taunt.anim using Guid(a8eb91ccb397282448bdc2eb2642dda3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '434034de0a4475508d8d2a11e707783c') in 0.0507087 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
